@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Content/UI/Style/Menu.uss?fileID=7433441132597879392&amp;guid=6d6d0cad51d3881409213bbaa2f4414f&amp;type=3#Menu" />
+    <ui:Label text="Arch Titan" display-tooltip-when-elided="true" enable-rich-text="false" class="title" style="-unity-font-style: normal;" />
+    <ui:VisualElement name="Buttons" style="height: 353px; flex-direction: column; align-items: center; justify-content: flex-start;">
+        <ui:Button text="Começar" display-tooltip-when-elided="true" name="Start" class="m_button" />
+        <ui:Button text="Opções" display-tooltip-when-elided="true" name="Options" class="m_button" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" class="m_button" />
+    </ui:VisualElement>
+</ui:UXML>

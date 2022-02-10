@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Window" style="left: 50%; top: 50%; translate: -50% -50%; width: 50%; height: 50%; background-color: rgba(84, 84, 84, 0.57);">
+        <ui:Label text="Você Perdeu" display-tooltip-when-elided="true" name="Loose" style="-unity-font-style: bold; font-size: 50px; -unity-text-align: middle-center; -unity-text-outline-color: rgba(0, 0, 0, 255); -unity-text-outline-width: 1.9px; color: rgba(255, 255, 255, 255);" />
+        <ui:Button text="Tentar Novamente" display-tooltip-when-elided="true" name="Retry" style="margin-top: 10px;" />
+        <ui:Button text="Desistir como um covarde" display-tooltip-when-elided="true" name="Exit" />
+    </ui:VisualElement>
+</ui:UXML>

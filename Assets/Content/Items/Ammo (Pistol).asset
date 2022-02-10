@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b53c1fb84e50b4db8fbbe7cb637e70, type: 3}
+  m_Name: Ammo (Pistol)
+  m_EditorClassIdentifier: 
+  Name: "Muni\xE7\xE3o"
+  Icon: {fileID: 21300000, guid: 99b63c4a223085843a45df31a94dc215, type: 3}
+  Type: 3
+  Script: {fileID: 4900000, guid: 50ce11b88a57740449d346263bc56132, type: 3}
+  Values:
+  - Key: Ammo
+    Type: 1
+    ValueInt: 10
+    ValueFloat: 0
+    ValueBool: 0
+    ValueString: 
+    ValueItemAsset: {fileID: 0}
+  - Key: Type
+    Type: 4
+    ValueInt: 0
+    ValueFloat: 0
+    ValueBool: 0
+    ValueString: Pistol
+    ValueItemAsset: {fileID: 0}
+  UseClip: {fileID: 0}

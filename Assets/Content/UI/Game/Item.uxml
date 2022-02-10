@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Item" class="item">
+        <ui:VisualElement class="item-icon" style="background-color: rgba(0, 0, 0, 255);" />
+        <ui:Label display-tooltip-when-elided="true" text="Item" enable-rich-text="true" class="item-name" />
+    </ui:VisualElement>
+</ui:UXML>

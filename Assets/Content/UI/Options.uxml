@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Content/UI/Style/Controls.uss?fileID=7433441132597879392&amp;guid=18e6ca08040144d459ad98325a275051&amp;type=3#Controls" />
+    <Style src="project://database/Assets/Content/UI/Style/Menu.uss?fileID=7433441132597879392&amp;guid=6d6d0cad51d3881409213bbaa2f4414f&amp;type=3#Menu" />
+    <ui:VisualElement name="Options-Menu" style="height: 75%; background-color: rgba(135, 135, 135, 0.65); width: 75%; align-items: center; justify-content: flex-start; position: absolute; left: 12.5%; top: 12.5%; right: 0; bottom: 0; border-left-color: rgba(60, 60, 60, 0); border-right-color: rgba(60, 60, 60, 0.17); border-top-color: rgba(60, 60, 60, 0); border-bottom-color: rgba(60, 60, 60, 0.17); border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px;">
+        <ui:VisualElement name="Header" style="width: 100%; -unity-text-align: middle-center; white-space: normal; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center;">
+            <ui:Button text="&lt;" display-tooltip-when-elided="true" name="Back" style="background-color: rgba(188, 188, 188, 0.28); -unity-font-style: bold; font-size: 50px; height: 43px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; width: 45px; -unity-text-align: middle-center; white-space: normal;" />
+            <ui:Label text="Opções" display-tooltip-when-elided="true" name="Title" class="title" style="font-size: 33px; -unity-text-align: middle-center; white-space: normal; align-items: center; justify-content: center; flex-direction: row-reverse; flex-wrap: wrap; left: -130px;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="field">
+            <ui:Slider picking-mode="Ignore" label="Volume" value="42" high-value="100" show-input-field="false" name="Volumn" />
+        </ui:VisualElement>
+        <ui:VisualElement class="field">
+            <ui:DropdownField label="Graphics Quality" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="GraphicsQuality" class="value" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

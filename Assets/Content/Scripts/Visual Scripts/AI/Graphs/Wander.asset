@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Wander
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"Agent","value":null,"typeHandle":{"Identification":"UnityEngine.AI.NavMeshAgent,
+      UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Wander
+      Max Distance","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-56.91554,"y":-63.64977},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-324.0,"y":-249.0},"guid":"885ceadd-b93a-448a-8190-10d6d2eb8976","$version":"A","$type":"Unity.VisualScripting.OnEnterState","$id":"11"},{"member":{"name":"onUnitSphere","parameterTypes":null,"targetType":"UnityEngine.Random","targetTypeName":"UnityEngine.Random","$version":"A"},"defaultValues":{},"position":{"x":-510.0,"y":285.0},"guid":"fd713c63-b0a5-4c43-91aa-38a344c12ed8","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"13"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Wander
+      Max Distance","$type":"System.String"}},"position":{"x":-550.0,"y":438.0},"guid":"a9fac8f9-8133-487c-b66a-703ac3d688bf","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"defaultValues":{"b":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-105.0,"y":322.0},"guid":"d05fd918-dd2d-413c-9953-620df2eb0d95","$version":"A","$type":"Unity.VisualScripting.Vector3Multiply","$id":"18"},{"chainable":false,"member":{"name":".ctor","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":0.0,"$type":"System.Single"},"%z":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-270.0,"y":390.0},"guid":"99d77950-07ce-4511-a1f0-2c0ccae09478","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"20"},{"chainable":false,"member":{"name":"Wander","parameterTypes":["System.String"],"targetType":"ArchTitan.AI.AICommons","targetTypeName":"ArchTitan.AI.AICommons","$version":"A"},"defaultValues":{"target":null,"%triggerOnComplete":{"$content":"Idle","$type":"System.String"}},"position":{"x":-95.0,"y":-215.0},"guid":"a065f608-cf97-4b71-be09-22e535f204d2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"23"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"23"},"destinationKey":"enter","guid":"54a24cb0-0c5c-4192-93b7-77c3525c3e50","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"a","guid":"ad60c8c3-cfd3-47c0-a750-13b2258f0def","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"%x","guid":"141eb197-fdb7-489b-b0bd-e5052dcfbaef","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"%z","guid":"511bfa60-debf-43b4-89de-edc29e253d87","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"result","destinationUnit":{"$ref":"18"},"destinationKey":"b","guid":"c7a7c59b-bc3a-458d-8d3c-be3e95761efd","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Content/UI/Game/Styles/HUD.uss?fileID=7433441132597879392&amp;guid=303977809b72f474da8e63081908f9f7&amp;type=3#HUD" />
+    <ui:ProgressBar name="Life" />
+    <ui:VisualElement name="Weapon" style="flex-direction: row; width: 30%; flex-wrap: wrap; display: none;">
+        <ui:VisualElement name="Icon" />
+        <ui:VisualElement name="Name-Ammo" style="width: 100px; height: 100%; margin-left: 3px;">
+            <ui:Label text="Weapon" display-tooltip-when-elided="true" name="Weapon-Name" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="0/10" display-tooltip-when-elided="true" name="Ammo" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Label text="MII$ 0" display-tooltip-when-elided="true" name="Money" style="-unity-text-align: upper-left; position: relative; font-size: 35%; -unity-font-style: bold; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; white-space: nowrap;" />
+</ui:UXML>

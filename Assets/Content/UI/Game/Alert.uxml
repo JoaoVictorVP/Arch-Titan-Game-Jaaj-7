@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Window" style="width: 60%; height: 60%; left: 50%; top: 50%; translate: -50% -50%; background-color: rgba(209, 209, 209, 255);">
+        <ui:Button text="X" display-tooltip-when-elided="true" name="Close" style="width: 19px; height: 19px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-font-style: bold;" />
+        <ui:Label text="Message" display-tooltip-when-elided="true" name="Message" style="-unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

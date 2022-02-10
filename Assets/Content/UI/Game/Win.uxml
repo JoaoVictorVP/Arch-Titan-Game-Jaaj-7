@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Window" style="width: 90%; height: 90%; translate: -50% -50%; left: 50%; top: 50%; background-color: rgb(31, 31, 31); align-items: center;">
+        <ui:Label text="VOCÊ VENCEU!!!" display-tooltip-when-elided="true" name="Title" style="-unity-font-style: bold; font-size: 36px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+        <ui:Label text="Parabéns! Você derrotou seu &quot;arqui-inimigo&quot; e agora está livre da maldição que é este jogo!&#10;&#10;Já pode voltar a sua vida comum, espero que tenha se divertido." display-tooltip-when-elided="true" style="color: rgb(217, 217, 217); font-size: 19px; white-space: normal; -unity-text-align: upper-center;" />
+        <ui:Button text="Sair como um vencedor" display-tooltip-when-elided="true" name="Finish" style="font-size: 36px; -unity-font-style: bold; border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; margin-top: 32px; width: 80%;" />
+    </ui:VisualElement>
+</ui:UXML>

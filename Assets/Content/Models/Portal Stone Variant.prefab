@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4347879252592575852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2777248430355970401, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_Name
+      value: Portal Stone Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 275.60507
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 322.9988
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157817518054289272, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8096723599127699552, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417954627145708308, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: MoneyOnDeath
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417954627145708308, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: Spawn.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417954627145708308, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: Spawn.Array.data[0]
+      value: 
+      objectReference: {fileID: 3526149114142889544, guid: bb13746f599a04b4082c5546e7133b1c,
+        type: 3}
+    - target: {fileID: 8417954627145708308, guid: ce725aceed899524baa0580f25accff3,
+        type: 3}
+      propertyPath: Spawn.Array.data[1]
+      value: 
+      objectReference: {fileID: 3749393718924583941, guid: 8697f9c5601691e49a5a1cdadfbbcdd5,
+        type: 3}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce725aceed899524baa0580f25accff3, type: 3}
+--- !u!1 &1935423723506154509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2777248430355970401, guid: ce725aceed899524baa0580f25accff3,
+    type: 3}
+  m_PrefabInstance: {fileID: 4347879252592575852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &4329147332210031338
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935423723506154509}
+  serializedVersion: 2
+  m_Mass: 1000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

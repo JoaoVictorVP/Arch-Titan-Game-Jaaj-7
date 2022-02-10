@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Content/UI/Style/Menu.uss?fileID=7433441132597879392&amp;guid=6d6d0cad51d3881409213bbaa2f4414f&amp;type=3#Menu" />
+    <Style src="project://database/Assets/Content/UI/Style/Controls.uss?fileID=7433441132597879392&amp;guid=18e6ca08040144d459ad98325a275051&amp;type=3#Controls" />
+    <ui:VisualElement name="Window" style="width: 70%; height: 50%; left: 50%; top: 50%; translate: -50% -50%; background-color: rgba(67, 67, 67, 0.33); align-items: center; justify-content: space-around;">
+        <ui:Button text="Continuar" display-tooltip-when-elided="true" name="Continue" class="m_button" />
+        <ui:Button text="Opções" display-tooltip-when-elided="true" name="Options" class="m_button" />
+        <ui:Button text="Sair" display-tooltip-when-elided="true" name="Exit" class="m_button" />
+    </ui:VisualElement>
+</ui:UXML>
